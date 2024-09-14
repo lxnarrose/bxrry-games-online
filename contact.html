@@ -38,20 +38,21 @@
         <section class="contact-form">
             <article>
                 <h1>Contact Me</h1>
-                <form name="contact" method="post" netlify>
+                <form name="contact" method="POST" data-netlify="true">
                     <label for="name">Name:</label>
                     <input type="text" id="name" name="name" placeholder="Your name" required>
-
+        
                     <label for="email">Email:</label>
                     <input type="email" id="email" name="email" placeholder="Your email" required>
-
+        
                     <label for="message">Message:</label>
                     <textarea id="message" name="message" rows="5" placeholder="Your message" required></textarea>
-
-                    <input type="submit" value="Send">
+        
+                    <button type="submit">Send</button>
                 </form>
             </article>
         </section>
+        
 
         <!-- Right Column - News Section -->
         <aside class="news">
