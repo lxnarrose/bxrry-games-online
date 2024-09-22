@@ -207,3 +207,12 @@ main {
     background-color: #ff6f8a;
 }
 
+.project-item {
+    background-color: #fff;
+    border: 2px dotted #ffb6c1;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease-in-out;
+}
