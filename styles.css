@@ -1,4 +1,3 @@
-/* General Styles */
 body {
     font-family: 'Mali', sans-serif;
     background: #ffeef2;
@@ -9,7 +8,6 @@ body {
     align-items: center;
 }
 
-/* Smooth moving checkered background */
 body::before {
     content: "";
     position: fixed;
@@ -52,7 +50,6 @@ header {
     margin: 0 10px;
 }
 
-/* Navigation */
 .navbar {
     background-color: #ffeef2;
     padding: 10px 0;
@@ -78,7 +75,6 @@ header {
     color: #ff8fa3;
 }
 
-/* Main Content - Two Columns */
 main {
     display: flex;
     max-width: 1200px;
@@ -86,7 +82,6 @@ main {
     padding: 20px;
 }
 
-/* Left Column - About Me */
 .about-me {
     flex: 3;
     margin-right: 20px;
@@ -106,7 +101,6 @@ main {
     transform: scale(1.02);
 }
 
-/* YouTube Section */
 .youtube-video {
     background-color: #fff;
     border: 2px dotted #ffb6c1;
@@ -123,7 +117,6 @@ main {
     max-width: 560px;
 }
 
-/* Right Column - News Section */
 .news {
     flex: 1;
     max-width: 300px;
@@ -147,13 +140,11 @@ main {
     transform: scale(1.02);
 }
 
-/* Animations */
 @keyframes fadeIn {
     0% { opacity: 0; transform: translateY(20px); }
     100% { opacity: 1; transform: translateY(0); }
 }
 
-/* Contact Form */
 .contact-form {
     flex: 1;
     margin-right: 30px;
